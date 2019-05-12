@@ -1,0 +1,18 @@
+<!--index.wxml-->
+<view class="content">
+  <view>
+    <navigator url="/pages/select/select" class="title">
+      到 {{language}} <view class="trangle">▼</view>
+    </navigator>
+    <form>
+      <textarea bindconfirm = "translate" placeholder='请输入翻译内容'></textarea>
+    </form>
+  </view>
+  <view>
+    <view class="title">译文</view>
+    <text selectable='true'>{{result}}</text>
+  </view>
+</view>
+<view class="footer">
+  翻译结果来自百度翻译
+</view>

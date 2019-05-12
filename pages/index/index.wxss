@@ -1,0 +1,27 @@
+/**index.wxss**/
+.content{
+  height: calc(100vh - 50rpx);
+}
+textarea,text{
+  background-color: white;
+  display: block;
+  width: 100%;
+  padding: 30rpx;
+  font-size: 30rpx;
+}
+text{
+  padding-bottom:100rpx;
+}
+.trangle{
+  font-size: 20rpx;
+  display: inline-block;
+}
+.right{
+  float:right
+}
+.footer{
+  height: 50rpx;
+  font-size: 25rpx;
+  text-align: center;
+  color:gray;
+}

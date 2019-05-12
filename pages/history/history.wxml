@@ -1,0 +1,3 @@
+<!--index.wxml-->
+<view class="history" wx:for="{{history}}">{{item.query}} : {{item.result}}</view>
+<view bindtap="clear" class="clear">清空历史信息</view>

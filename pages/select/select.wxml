@@ -1,0 +1,7 @@
+<!--index.wxml-->
+<view>
+  <view class="title">请选择语言</view>
+  <view data-text="{{item}}" url="/pages/index/index" class="items" wx:for="{{language}}" bindtap="selectLanguage">
+    {{item}}
+  </view>
+</view>

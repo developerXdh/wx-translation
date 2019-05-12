@@ -1,0 +1,8 @@
+/**index.wxss**/
+.items{
+  background-color: white;
+  padding: 15rpx 30rpx;
+  margin: 5rpx 0;
+  font-size: 35rpx;
+  display: block;
+}

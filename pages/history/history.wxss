@@ -1,0 +1,18 @@
+/**index.wxss**/
+.history{
+  font-size: 30rpx;
+  padding: 7px 20px;
+  color:gray
+}
+.clear{
+  text-align: center;
+  font-size: 30rpx;
+  color:gray;
+}
+.clear::before{
+  margin: 20rpx 0 10rpx 0;
+  content: "";
+  height:2rpx;
+  display: block;
+  background-color: gray
+}
